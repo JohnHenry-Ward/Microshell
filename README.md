@@ -3,7 +3,8 @@ This is a Microshell in C. It's main use is to read commands from the command li
 
 Argument Parsing
 * Use system calls like: execvp, fork, waitpid, pipe
-* Uses arrays and pointers to parse a command line argument
+* Uses arrays and pointers to parse a command line arguments
+
 Command Line Expansion
 * Enviornment Variables: ${...}
 * Process ID: $
@@ -13,6 +14,7 @@ Command Line Expansion
 * Command Expansion: $(...)
 * Pipe: |
 * Wildcards: *
+
 Built In's
 * Exit
 * Set/unset environment varaibles
