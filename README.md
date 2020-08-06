@@ -5,17 +5,17 @@ Argument Parsing
 * Use system calls like: execvp, fork, waitpid, pipe
 * Uses arrays and pointers to parse a command line argument
 Command Line Expansion
-  -Enviornment Variables: ${...}
-  -Process ID: $
-  -Command Line Arguments: an integer
-  -Number of Arguments: #
-  -Exit Value: $?
-  -Command Expansion: $(...)
-  -Pipe: |
-  -Wildcards: *
+* Enviornment Variables: ${...}
+* Process ID: $
+* Command Line Arguments: an integer
+* Number of Arguments: #
+* Exit Value: $?
+* Command Expansion: $(...)
+* Pipe: |
+* Wildcards: *
 Built In's
-  -Exit
-  -Set/unset environment varaibles
-  -Cd
-  -Shift/Unshift
-  -Sstat
+* Exit
+* Set/unset environment varaibles
+* Cd
+* Shift/Unshift
+* Sstat
