@@ -2,8 +2,8 @@ This is a Microshell in C. It's main use is to read commands from the command li
 
 
 Argument Parsing
-*Use system calls like: execvp, fork, waitpid, pipe
-*Uses arrays and pointers to parse a command line argument
+* Use system calls like: execvp, fork, waitpid, pipe
+* Uses arrays and pointers to parse a command line argument
 Command Line Expansion
   -Enviornment Variables: ${...}
   -Process ID: $
